@@ -954,7 +954,7 @@
 
 		<!--****************** Logical Operators *************** -->
 
-		<BlockGenus name="greater" kind="function" color="222 131 51" initlabel="bg.greater">
+		<BlockGenus name="greater" kind="function" color="255 152 0" initlabel="bg.greater">
 			<description>
 				<text>is upper number greater then lower?</text>
 			</description>
@@ -968,7 +968,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="less" kind="function" color="222 131 51" initlabel="bg.less">
+		<BlockGenus name="less" kind="function" color="255 152 0" initlabel="bg.less">
 			<description>
 				<text>is upper number less then lower?</text>
 			</description>
@@ -982,7 +982,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="equal" kind="function" color="222 131 51" initlabel="bg.equal">
+		<BlockGenus name="equal" kind="function" color="255 152 0" initlabel="bg.equal">
 			<description>
 				<text>is upper number greater then lower?</text>
 			</description>
@@ -995,63 +995,7 @@
 				<BlockConnector connector-type="number" connector-kind="socket" position-type="bottom" />
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="equal_digital" kind="function" color="222 131 51" initlabel="bg.equal_digital">
-			<description>
-				<text>is upper number greater then lower?</text>
-			</description>
-			<BlockConnectors>
-				<BlockConnector connector-type="boolean" connector-kind="plug" position-type="mirror" >
-					<!-- CLUDGE:: This apparently daft line enables 'clone' to work correctly on this BlockGenus -->
-					<DefaultArg genus-name="dummy" label="" />
-				</BlockConnector>
-				<BlockConnector connector-type="boolean" connector-kind="socket" position-type="bottom" />
-				<BlockConnector connector-type="boolean" connector-kind="socket" position-type="bottom" />
-			</BlockConnectors>
-		</BlockGenus>
-
-		<BlockGenus name="greater_equal" kind="function" color="222 131 51" initlabel="bg.greater_equal">
-			<description>
-				<text>is upper number greater then lower?</text>
-			</description>
-			<BlockConnectors>
-				<BlockConnector connector-type="boolean" connector-kind="plug" position-type="mirror" >
-					<!-- CLUDGE:: This apparently daft line enables 'clone' to work correctly on this BlockGenus -->
-					<DefaultArg genus-name="dummy" label="" />
-				</BlockConnector>
-				<BlockConnector connector-type="number" connector-kind="socket" position-type="bottom" />
-				<BlockConnector connector-type="number" connector-kind="socket" position-type="bottom" />
-			</BlockConnectors>
-		</BlockGenus>
-
-		<BlockGenus name="less_equal" kind="function" color="222 131 51" initlabel="bg.less_equal">
-			<description>
-				<text>is upper number greater then lower?</text>
-			</description>
-			<BlockConnectors>
-				<BlockConnector connector-type="boolean" connector-kind="plug" position-type="mirror" >
-					<!-- CLUDGE:: This apparently daft line enables 'clone' to work correctly on this BlockGenus -->
-					<DefaultArg genus-name="dummy" label="" />
-				</BlockConnector>
-				<BlockConnector connector-type="number" connector-kind="socket" position-type="bottom" />
-				<BlockConnector connector-type="number" connector-kind="socket" position-type="bottom" />
-			</BlockConnectors>
-		</BlockGenus>
-
-		<BlockGenus name="not_equal" kind="function" color="222 131 51" initlabel="bg.not_equal">
-			<description>
-				<text>is upper number greater then lower?</text>
-			</description>
-			<BlockConnectors>
-				<BlockConnector connector-type="boolean" connector-kind="plug" position-type="mirror" >
-					<!-- CLUDGE:: This apparently daft line enables 'clone' to work correctly on this BlockGenus -->
-					<DefaultArg genus-name="dummy" label="" />
-				</BlockConnector>
-				<BlockConnector connector-type="number" connector-kind="socket" position-type="bottom" />
-				<BlockConnector connector-type="number" connector-kind="socket" position-type="bottom" />
-			</BlockConnectors>
-		</BlockGenus>
-
-		<BlockGenus name="not_equal_digital" kind="function" color="222 131 51" initlabel="bg.not_equal_digital">
+		<BlockGenus name="equal_digital" kind="function" color="255 152 0" initlabel="bg.equal_digital">
 			<description>
 				<text>is upper number greater then lower?</text>
 			</description>
@@ -1065,7 +1009,63 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="string_greater" kind="data" color="222 131 51" initlabel="bg.string_greater">
+		<BlockGenus name="greater_equal" kind="function" color="255 152 0" initlabel="bg.greater_equal">
+			<description>
+				<text>is upper number greater then lower?</text>
+			</description>
+			<BlockConnectors>
+				<BlockConnector connector-type="boolean" connector-kind="plug" position-type="mirror" >
+					<!-- CLUDGE:: This apparently daft line enables 'clone' to work correctly on this BlockGenus -->
+					<DefaultArg genus-name="dummy" label="" />
+				</BlockConnector>
+				<BlockConnector connector-type="number" connector-kind="socket" position-type="bottom" />
+				<BlockConnector connector-type="number" connector-kind="socket" position-type="bottom" />
+			</BlockConnectors>
+		</BlockGenus>
+
+		<BlockGenus name="less_equal" kind="function" color="255 152 0" initlabel="bg.less_equal">
+			<description>
+				<text>is upper number greater then lower?</text>
+			</description>
+			<BlockConnectors>
+				<BlockConnector connector-type="boolean" connector-kind="plug" position-type="mirror" >
+					<!-- CLUDGE:: This apparently daft line enables 'clone' to work correctly on this BlockGenus -->
+					<DefaultArg genus-name="dummy" label="" />
+				</BlockConnector>
+				<BlockConnector connector-type="number" connector-kind="socket" position-type="bottom" />
+				<BlockConnector connector-type="number" connector-kind="socket" position-type="bottom" />
+			</BlockConnectors>
+		</BlockGenus>
+
+		<BlockGenus name="not_equal" kind="function" color="255 152 0" initlabel="bg.not_equal">
+			<description>
+				<text>is upper number greater then lower?</text>
+			</description>
+			<BlockConnectors>
+				<BlockConnector connector-type="boolean" connector-kind="plug" position-type="mirror" >
+					<!-- CLUDGE:: This apparently daft line enables 'clone' to work correctly on this BlockGenus -->
+					<DefaultArg genus-name="dummy" label="" />
+				</BlockConnector>
+				<BlockConnector connector-type="number" connector-kind="socket" position-type="bottom" />
+				<BlockConnector connector-type="number" connector-kind="socket" position-type="bottom" />
+			</BlockConnectors>
+		</BlockGenus>
+
+		<BlockGenus name="not_equal_digital" kind="function" color="255 152 0" initlabel="bg.not_equal_digital">
+			<description>
+				<text>is upper number greater then lower?</text>
+			</description>
+			<BlockConnectors>
+				<BlockConnector connector-type="boolean" connector-kind="plug" position-type="mirror" >
+					<!-- CLUDGE:: This apparently daft line enables 'clone' to work correctly on this BlockGenus -->
+					<DefaultArg genus-name="dummy" label="" />
+				</BlockConnector>
+				<BlockConnector connector-type="boolean" connector-kind="socket" position-type="bottom" />
+				<BlockConnector connector-type="boolean" connector-kind="socket" position-type="bottom" />
+			</BlockConnectors>
+		</BlockGenus>
+
+		<BlockGenus name="string_greater" kind="data" color="255 152 0" initlabel="bg.string_greater">
 			<description>
 				<text>is upper string greater then lower?</text>
 			</description>
@@ -1080,7 +1080,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="string_less" kind="data" color="222 131 51" initlabel="bg.string_less">
+		<BlockGenus name="string_less" kind="data" color="255 152 0" initlabel="bg.string_less">
 			<description>
 				<text>is upper string less then lower?</text>
 			</description>
@@ -1095,7 +1095,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="string_equal" kind="data" color="222 131 51" initlabel="bg.string_equal">
+		<BlockGenus name="string_equal" kind="data" color="255 152 0" initlabel="bg.string_equal">
 			<description>
 				<text>is upper string greater then lower?</text>
 			</description>
@@ -1111,7 +1111,7 @@
 		</BlockGenus>
 
 
-		<BlockGenus name="string_greater_equal" kind="data" color="222 131 51" initlabel="bg.string_greater_equal">
+		<BlockGenus name="string_greater_equal" kind="data" color="255 152 0" initlabel="bg.string_greater_equal">
 			<description>
 				<text>is upper string greater then lower?</text>
 			</description>
@@ -1126,7 +1126,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="string_less_equal" kind="data" color="222 131 51" initlabel="bg.string_less_equal">
+		<BlockGenus name="string_less_equal" kind="data" color="255 152 0" initlabel="bg.string_less_equal">
 			<description>
 				<text>is upper string greater then lower?</text>
 			</description>
@@ -1141,7 +1141,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="string_not_equal" kind="data" color="222 131 51" initlabel="bg.string_not_equal">
+		<BlockGenus name="string_not_equal" kind="data" color="255 152 0" initlabel="bg.string_not_equal">
 			<description>
 				<text>is upper string greater then lower?</text>
 			</description>
@@ -1157,7 +1157,7 @@
 		</BlockGenus>
 
 
-		<BlockGenus name="string_equalsIgnoreCase" kind="data" color="222 131 51" initlabel="bg.string_equalsIgnoreCase">
+		<BlockGenus name="string_equalsIgnoreCase" kind="data" color="255 152 0" initlabel="bg.string_equalsIgnoreCase">
 			<description>
 				<text>is equalsIgnoreCase then lower?</text>
 			</description>
@@ -1172,7 +1172,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="string_equals" kind="data" color="222 131 51" initlabel="bg.string_equals">
+		<BlockGenus name="string_equals" kind="data" color="255 152 0" initlabel="bg.string_equals">
 			<description>
 				<text>is equals then ?</text>
 			</description>
@@ -1187,7 +1187,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="string_compareTo" kind="data" color="222 131 51" initlabel="bg.string_compareTo">
+		<BlockGenus name="string_compareTo" kind="data" color="255 152 0" initlabel="bg.string_compareTo">
 			<description>
 				<text>is compareTo ?</text>
 			</description>
@@ -1218,7 +1218,7 @@
 		</BlockGenus>
 
 
-		<BlockGenus name="and" kind="data" initlabel="bg.and" color="222 131 51">
+		<BlockGenus name="and" kind="data" initlabel="bg.and" color="255 152 0">
 			<description>
 				<text>
 					Reports true if both of the two conditions are true.
@@ -1232,7 +1232,7 @@
 		</BlockGenus>
 
 
-		<BlockGenus name="or" kind="function" initlabel="bg.or" color="222 131 51">
+		<BlockGenus name="or" kind="function" initlabel="bg.or" color="255 152 0">
 			<description>
 				<text>
 					Reports true if one or both of the two conditions are true.
@@ -1245,7 +1245,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="not" kind="function" initlabel="bg.not" color="222 131 51">
+		<BlockGenus name="not" kind="function" initlabel="bg.not" color="255 152 0">
 			<description>
 				<text>
 					Reports the opposite of
@@ -1259,7 +1259,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="equal_poly" kind="function" color="222 131 51" initlabel="bg.equal_poly">
+		<BlockGenus name="equal_poly" kind="function" color="255 152 0" initlabel="bg.equal_poly">
 			<description>
 				<text>is upper number greater then lower?</text>
 			</description>
@@ -1275,7 +1275,7 @@
 
 
 
-		<BlockGenus name="not_equal_poly" kind="function" color="222 131 51" initlabel="bg.not_equal_poly">
+		<BlockGenus name="not_equal_poly" kind="function" color="255 152 0" initlabel="bg.not_equal_poly">
 			<description>
 				<text>is upper number greater then lower?</text>
 			</description>
@@ -1289,7 +1289,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="string_equal" kind="function" color="222 131 51" initlabel="bg.string_equal">
+		<BlockGenus name="string_equal" kind="function" color="255 152 0" initlabel="bg.string_equal">
 			<description>
 				<text>is upper number greater then lower?</text>
 			</description>
@@ -1303,7 +1303,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="string_empty" kind="function" color="222 131 51" initlabel="bg.string_empty">
+		<BlockGenus name="string_empty" kind="function" color="255 152 0" initlabel="bg.string_empty">
 			<description>
 				<text>is upper number greater then lower?</text>
 			</description>
@@ -1315,7 +1315,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-				<BlockGenus name="equal_string" kind="function" color="222 131 51" initlabel="bg.equal_string">
+				<BlockGenus name="equal_string" kind="function" color="255 152 0" initlabel="bg.equal_string">
 			<description>
 				<text>is upper number greater then lower?</text>
 			</description>
@@ -1329,7 +1329,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="not_equal_string" kind="function" color="222 131 51" initlabel="bg.not_equal_string">
+		<BlockGenus name="not_equal_string" kind="function" color="255 152 0" initlabel="bg.not_equal_string">
 			<description>
 				<text>is upper number greater then lower?</text>
 			</description>
@@ -11057,11 +11057,33 @@
 				<BlockGenusMember>pow</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="255 152 0" name="bd.compare" type="factory">
+				<BlockGenusMember>greater</BlockGenusMember>
+				<BlockGenusMember>less</BlockGenusMember>
+				<BlockGenusMember>equal</BlockGenusMember>
+				<BlockGenusMember>not_equal</BlockGenusMember>
+				<BlockGenusMember>equal_digital</BlockGenusMember>
+				<BlockGenusMember>not_equal_digital</BlockGenusMember>
+				<BlockGenusMember>equal_string</BlockGenusMember>
+				<BlockGenusMember>not_equal_string</BlockGenusMember>
+				<BlockGenusMember>and</BlockGenusMember>
+				<BlockGenusMember>or</BlockGenusMember>
+				<BlockGenusMember>not</BlockGenusMember>
 				<BlockGenusMember>string_toInt</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="158 158 158" name="bd.communicate" type="factory">
+				<BlockGenusMember>serial_print</BlockGenusMember>
+				<BlockGenusMember>glue_sn</BlockGenusMember>
+				<BlockGenusMember>glue_sb</BlockGenusMember>
+				<BlockGenusMember>glue_poly</BlockGenusMember>
+				<BlockGenusMember>wire_write</BlockGenusMember>
+				<BlockGenusMember>wire_read</BlockGenusMember>
+				<BlockGenusMember>serial_available</BlockGenusMember>
+				<BlockGenusMember>serial_available2</BlockGenusMember>
+				<BlockGenusMember>wire_isread</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="233 30 99" name="bd.devices" type="factory">
+				<BlockGenusMember>ir_setport</BlockGenusMember>
+				<BlockGenusMember>ir_getcode</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="96 125 139" name="bd.code" type="factory">
 			</BlockDrawer>
@@ -11073,6 +11095,11 @@
 				<BlockGenusMember>variable_number_unsigned_long</BlockGenusMember>
 				<BlockGenusMember>setter_variable_char</BlockGenusMember>
 				<BlockGenusMember>char</BlockGenusMember>
+				<BlockGenusMember>equal_poly</BlockGenusMember>
+				<BlockGenusMember>not_equal_poly</BlockGenusMember>
+				<BlockGenusMember>greater_equal</BlockGenusMember>
+				<BlockGenusMember>less_equal</BlockGenusMember>
+				<BlockGenusMember>string_empty</BlockGenusMember>
 				<BlockGenusMember>toint</BlockGenusMember>
 				<BlockGenusMember>variable_poly</BlockGenusMember>
 				<BlockGenusMember>sqrt</BlockGenusMember>
@@ -11080,6 +11107,7 @@
 				<BlockGenusMember>cos</BlockGenusMember>
 				<BlockGenusMember>tan</BlockGenusMember>
 				<BlockGenusMember>constrain</BlockGenusMember>
+				<BlockGenusMember>serial_write</BlockGenusMember>
 			</BlockDrawer>
 
 
