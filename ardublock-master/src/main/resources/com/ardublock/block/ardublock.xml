@@ -134,7 +134,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="while" kind="command" initlabel="bg.while" color="255 221 0">
+		<BlockGenus name="while" kind="command" initlabel="bg.while" color="3 169 244">
 			<description>
 				<text>
 					While Block
@@ -146,7 +146,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-	<BlockGenus name="do_while" kind="command" initlabel="bg.do_while" color="255 221 0">
+	<BlockGenus name="do_while" kind="command" initlabel="bg.do_while" color="3 169 244">
           <description>
             <text>
                 Do While Block
@@ -160,7 +160,7 @@
           </BlockConnectors>
       </BlockGenus>
 
-		<BlockGenus name="break" kind="command" color="255 221 0" initlabel="bg.break">
+		<BlockGenus name="break" kind="command" color="3 169 244" initlabel="bg.break">
 			<description>
 				<text>Repeat the commands for "times"</text>
 			</description>
@@ -373,7 +373,7 @@
 					<DefaultArg genus-name="DuinoEDU_D2" label="D2" />
 				</BlockConnector>
 				<BlockConnector connector-type="boolean" connector-kind="socket">
-					<DefaultArg genus-name="digital-high" label="入" />
+					<DefaultArg genus-name="digital-high" label="Ο" />
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
@@ -709,7 +709,7 @@
 
 		<!--****************** Mathematical Operators *************** -->
 
-		<BlockGenus name="addition" kind="function" initlabel="bg.addition" color="149 193 31">
+		<BlockGenus name="addition" kind="function" initlabel="bg.addition" color="63 81 181">
 			<description>
 				<text>
 					Reports the sum of two numbers (
@@ -729,7 +729,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="subtraction" kind="function" initlabel="bg.subtraction" color="149 193 31">
+		<BlockGenus name="subtraction" kind="function" initlabel="bg.subtraction" color="63 81 181">
 			<description>
 				<text>
 					Reports the difference of two numbers (
@@ -749,7 +749,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="multiplication" kind="function" initlabel="bg.multiplication" color="149 193 31">
+		<BlockGenus name="multiplication" kind="function" initlabel="bg.multiplication" color="63 81 181">
 			<description>
 				<text>
 					Reports the product of two numbers (
@@ -769,7 +769,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="division" kind="function" initlabel="bg.division" color="149 193 31">
+		<BlockGenus name="division" kind="function" initlabel="bg.division" color="63 81 181">
 			<description>
 				<text>
 					Reports the quotient of two numbers (
@@ -789,7 +789,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="modulo" kind="function" color="149 193 31" initlabel="bg.modulo">
+		<BlockGenus name="modulo" kind="function" color="63 81 181" initlabel="bg.modulo">
 			<BlockConnectors>
 				<BlockConnector label="" connector-kind="plug" connector-type="number" position-type="mirror" >
 					<!-- CLUDGE:: This apparently daft line enables 'clone' to work correctly on this BlockGenus -->
@@ -800,14 +800,14 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="abs" kind="function" color="149 193 31" initlabel="bg.abs">
+		<BlockGenus name="abs" kind="function" color="63 81 181" initlabel="bg.abs">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug" />
 				<BlockConnector connector-type="number" connector-kind="socket" />
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="pow" kind="function" color="149 193 31" initlabel="bg.pow">
+		<BlockGenus name="pow" kind="function" color="63 81 181" initlabel="bg.pow">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug" />
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.base" />
@@ -815,35 +815,35 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="sqrt" kind="function" color="149 193 31" initlabel="bg.sqrt">
+		<BlockGenus name="sqrt" kind="function" color="63 81 181" initlabel="bg.sqrt">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug" />
 				<BlockConnector connector-type="number" connector-kind="socket" />
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="sin" kind="function" color="149 193 31" initlabel="bg.sin">
+		<BlockGenus name="sin" kind="function" color="63 81 181" initlabel="bg.sin">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug" />
 				<BlockConnector connector-type="number" connector-kind="socket" />
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="cos" kind="function" color="149 193 31" initlabel="bg.cos">
+		<BlockGenus name="cos" kind="function" color="63 81 181" initlabel="bg.cos">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug" />
 				<BlockConnector connector-type="number" connector-kind="socket" />
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="tan" kind="function" color="149 193 31" initlabel="bg.tan">
+		<BlockGenus name="tan" kind="function" color="63 81 181" initlabel="bg.tan">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug" />
 				<BlockConnector connector-type="number" connector-kind="socket" />
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="random" kind="data" color="149 193 31" initlabel="bg.random">
+		<BlockGenus name="random" kind="data" color="63 81 181" initlabel="bg.random">
 			<description>
 				<text>generate a random number less than the number</text>
 			</description>
@@ -855,7 +855,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="random_range" kind="function" color="149 193 31" initlabel="bg.pow">
+		<BlockGenus name="random_range" kind="function" color="63 81 181" initlabel="bg.pow">
 			<description>
 				<text>Generate random number between min and (max - 1)</text>
 			</description>
@@ -870,7 +870,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="min" kind="function" color="149 193 31" initlabel="bg.min">
+		<BlockGenus name="min" kind="function" color="63 81 181" initlabel="bg.min">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug" position-type="mirror" >
 					<!-- CLUDGE:: This apparently daft line enables 'clone' to work correctly on this BlockGenus -->
@@ -881,7 +881,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="max" kind="function" color="149 193 31" initlabel="bg.max">
+		<BlockGenus name="max" kind="function" color="63 81 181" initlabel="bg.max">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug" position-type="mirror" >
 					<!-- CLUDGE:: This apparently daft line enables 'clone' to work correctly on this BlockGenus -->
@@ -891,7 +891,7 @@
 				<BlockConnector connector-type="number" connector-kind="socket" position-type="bottom" />
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="map_common" kind="data" color="149 193 31" initlabel="bg.map_common">
+		<BlockGenus name="map_common" kind="data" color="63 81 181" initlabel="bg.map_common">
 			<description>
 				<text>map value from [0, 1023] to [0, 255]</text>
 			</description>
@@ -903,7 +903,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="map" kind="function" color="149 193 31" initlabel="bg.map">
+		<BlockGenus name="map" kind="function" color="63 81 181" initlabel="bg.map">
 			<description>
 				<text>map</text>
 			</description>
@@ -925,7 +925,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="toint" kind="function" color="149 193 31" initlabel="bg.toint">
+		<BlockGenus name="toint" kind="function" color="255 255 141" initlabel="bg.toint">
 			<description>
 				<text>to int</text>
 			</description>
@@ -936,7 +936,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="constrain" kind="function" color="149 193 31" initlabel="bg.constrain">
+		<BlockGenus name="constrain" kind="function" color="63 81 181" initlabel="bg.constrain">
 			<description>
 				<text>Constrain a number between two values</text>
 			</description>
@@ -1202,20 +1202,21 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="string_toInt" kind="data" color="222 131 51" initlabel="bg.string_toInt">
+		<BlockGenus name="string_toInt" kind="data" color="255 152 0" initlabel="bg.string_toInt">
 			<description>
 				<text>is a numeric string compared to the number it represents</text>
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-kind="plug" connector-type="boolean" />
-				<BlockConnector connector-type="string" connector-kind="socket" >
+				<BlockConnector connector-type="string" connector-kind="socket" label="bc.string">
 					<DefaultArg genus-name="message" label="message"/>
 				</BlockConnector>
-				<BlockConnector connector-type="number" connector-kind="socket" >
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.int">
 					<DefaultArg genus-name="number" label="1"/>
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
+
 
 		<BlockGenus name="and" kind="data" initlabel="bg.and" color="222 131 51">
 			<description>
@@ -1352,7 +1353,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="number" kind="data" color="232 156 149" initlabel="bg.number" editable-label="yes">
+		<BlockGenus name="number" kind="data" color="255 255 141" initlabel="bg.number" editable-label="yes">
 			<description>
 				<text>
 					Standard integer constant
@@ -1374,7 +1375,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="number_double" kind="data" color="153 204 255" initlabel="bg.number_double" editable-label="yes">
+		<BlockGenus name="number_double" kind="data" color="132 255 255" initlabel="bg.number_double" editable-label="yes">
 			<description>
 				<text>
 					'Double' constant
@@ -1403,7 +1404,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="digital-high" kind="data" color="33 150 243" initlabel="bg.digital-high">
+		<BlockGenus name="digital-high" kind="data" color="255 138 128" initlabel="bg.digital-high">
 			<description>
 				<text>
 					Pin HIGH
@@ -1414,7 +1415,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="digital-low" kind="data" color="33 150 243" initlabel="bg.digital-low">
+		<BlockGenus name="digital-low" kind="data" color="255 138 128" initlabel="bg.digital-low">
 			<description>
 				<text>
 					Pin LOW
@@ -1958,7 +1959,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="message" kind="data" color="245 245 245" initlabel="bg.message" editable-label="yes">
+		<BlockGenus name="message" kind="data" color="100 221 23" initlabel="bg.message" editable-label="yes">
 			<description>
 				<text>string message</text>
 			</description>
@@ -11045,10 +11046,18 @@
 				<BlockGenusMember>message</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="63 81 181" name="bd.calc" type="factory">
+				<BlockGenusMember>addition</BlockGenusMember>
+				<BlockGenusMember>subtraction</BlockGenusMember>
+				<BlockGenusMember>multiplication</BlockGenusMember>
+				<BlockGenusMember>division</BlockGenusMember>
+				<BlockGenusMember>modulo</BlockGenusMember>
+				<BlockGenusMember>abs</BlockGenusMember>
+				<BlockGenusMember>random_range</BlockGenusMember>
+				<BlockGenusMember>map</BlockGenusMember>
+				<BlockGenusMember>pow</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="255 152 0" name="bd.compare" type="factory">
-				<BlockGenusMember>while</BlockGenusMember>
-				<BlockGenusMember>do_while</BlockGenusMember>
+				<BlockGenusMember>string_toInt</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="158 158 158" name="bd.communicate" type="factory">
 			</BlockDrawer>
@@ -11057,15 +11066,20 @@
 			<BlockDrawer button-color="96 125 139" name="bd.code" type="factory">
 			</BlockDrawer>
 			<BlockDrawer button-color="156 39 176" name="bd.apply" type="factory">
+				<BlockGenusMember>while</BlockGenusMember>
+				<BlockGenusMember>do_while</BlockGenusMember>
 				<BlockGenusMember>break</BlockGenusMember>
 				<BlockGenusMember>setter_variable_number_unsigned_long</BlockGenusMember>
 				<BlockGenusMember>variable_number_unsigned_long</BlockGenusMember>
 				<BlockGenusMember>setter_variable_char</BlockGenusMember>
 				<BlockGenusMember>char</BlockGenusMember>
+				<BlockGenusMember>toint</BlockGenusMember>
 				<BlockGenusMember>variable_poly</BlockGenusMember>
-
-
-
+				<BlockGenusMember>sqrt</BlockGenusMember>
+				<BlockGenusMember>sin</BlockGenusMember>
+				<BlockGenusMember>cos</BlockGenusMember>
+				<BlockGenusMember>tan</BlockGenusMember>
+				<BlockGenusMember>constrain</BlockGenusMember>
 			</BlockDrawer>
 
 
