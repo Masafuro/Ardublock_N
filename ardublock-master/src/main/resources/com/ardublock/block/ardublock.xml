@@ -34,7 +34,7 @@
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.variable">
-					<DefaultArg genus-name="variable_number" label="variable name" />
+					<DefaultArg genus-name="variable_number" label="Namae?" />
 				</BlockConnector>
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.start">
 					<DefaultArg genus-name="number" label="1" />
@@ -1426,7 +1426,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="true" kind="data" initlabel="bg.true" color="204 153 255" editable-label="no">
+		<BlockGenus name="true" kind="data" initlabel="bg.true" color="255 138 128" editable-label="no">
 			<description>
 				<text>
 					Reports the boolean true.
@@ -1437,7 +1437,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="false" kind="data" initlabel="bg.false" color="204 153 255">
+		<BlockGenus name="false" kind="data" initlabel="bg.false" color="255 138 128">
 			<description>
 				<text>
 					Reports the boolean false.
@@ -1922,13 +1922,13 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="serial_available" kind="data" color="245 245 245" initlabel="bg.serial_available">
+		<BlockGenus name="serial_available" kind="data" color="0 188 212" initlabel="bg.serial_available">
 			<BlockConnectors>
 				<BlockConnector connector-type="boolean" connector-kind="plug" position-type="mirror" />
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="serial_available2" kind="data" color="245 245 245" initlabel="bg.serial_available2">
+		<BlockGenus name="serial_available2" kind="data" color="0 188 212" initlabel="bg.serial_available2">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug" position-type="mirror" />
 			</BlockConnectors>
@@ -1945,7 +1945,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="serial_print" kind="command" color="245 245 245" initlabel="bg.serial_print">
+		<BlockGenus name="serial_print" kind="command" color="0 188 212" initlabel="bg.serial_print">
 			<description>
 				<text>send message via Serial port</text>
 			</description>
@@ -1954,7 +1954,7 @@
 					<DefaultArg genus-name="message" label="message" />
 				</BlockConnector>
 				<BlockConnector connector-type="boolean" connector-kind="socket" label="bc.ln">
-					<DefaultArg genus-name="true" label="true" />
+					<DefaultArg genus-name="true" label="Ο" />
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
@@ -1969,7 +1969,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="glue_sn" kind="data" color="245 245 245" initlabel="bg.glue_sn">
+		<BlockGenus name="glue_sn" kind="data" color="0 188 212" initlabel="bg.glue_sn">
 			<description>
 				<text>glue number to string</text>
 			</description>
@@ -1979,7 +1979,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="glue_sb" kind="data" color="245 245 245" initlabel="bg.glue_sb">
+		<BlockGenus name="glue_sb" kind="data" color="0 188 212" initlabel="bg.glue_sb">
 			<description>
 				<text>glue boolean to string</text>
 			</description>
@@ -1989,7 +1989,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="glue_poly" kind="data" color="245 245 245" initlabel="bg.glue_poly" editable-label="no">
+		<BlockGenus name="glue_poly" kind="data" color="0 188 212" initlabel="bg.glue_poly" editable-label="no">
 			<description>
 				<text></text>
 			</description>
@@ -6117,102 +6117,102 @@
 
 <!-- socket blocks -->
 
-<BlockGenus name="DuinoEDU_D2" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D2" editable-label="no">
+<BlockGenus name="DuinoEDU_D2" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D2" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 </BlockGenus>
-<BlockGenus name="DuinoEDU_D3" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D3" editable-label="no">
+<BlockGenus name="DuinoEDU_D3" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D3" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D4" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D4" editable-label="no">
+<BlockGenus name="DuinoEDU_D4" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D4" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D5" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D5" editable-label="no">
+<BlockGenus name="DuinoEDU_D5" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D5" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D6" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D6" editable-label="no">
+<BlockGenus name="DuinoEDU_D6" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D6" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D7" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D7" editable-label="no">
+<BlockGenus name="DuinoEDU_D7" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D7" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D8" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D8" editable-label="no">
+<BlockGenus name="DuinoEDU_D8" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D8" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D9" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D9" editable-label="no">
+<BlockGenus name="DuinoEDU_D9" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D9" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D10" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D10" editable-label="no">
+<BlockGenus name="DuinoEDU_D10" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D10" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D11" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D11" editable-label="no">
+<BlockGenus name="DuinoEDU_D11" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D11" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D12" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D12" editable-label="no">
+<BlockGenus name="DuinoEDU_D12" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D12" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D13" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D13" editable-label="no">
+<BlockGenus name="DuinoEDU_D13" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D13" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D14" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D14" editable-label="no">
+<BlockGenus name="DuinoEDU_D14" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D14" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D15" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D15" editable-label="no">
+<BlockGenus name="DuinoEDU_D15" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D15" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D16" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D16" editable-label="no">
+<BlockGenus name="DuinoEDU_D16" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D16" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D17" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D17" editable-label="no">
+<BlockGenus name="DuinoEDU_D17" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D17" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D18" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D18" editable-label="no">
+<BlockGenus name="DuinoEDU_D18" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D18" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D19" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D19" editable-label="no">
+<BlockGenus name="DuinoEDU_D19" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D19" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D20" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D20" editable-label="no">
+<BlockGenus name="DuinoEDU_D20" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D20" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
 		</BlockGenus>
-<BlockGenus name="DuinoEDU_D21" kind="data" color="33 150 243" initlabel="bg.DuinoEDU_D21" editable-label="no">
+<BlockGenus name="DuinoEDU_D21" kind="data" color="0 150 136" initlabel="bg.DuinoEDU_D21" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug"/>
 			</BlockConnectors>
@@ -11067,20 +11067,19 @@
 				<BlockGenusMember>not</BlockGenusMember>
 				<BlockGenusMember>string_toInt</BlockGenusMember>
 			</BlockDrawer>
-			<BlockDrawer button-color="158 158 158" name="bd.communicate" type="factory">
+			<BlockDrawer button-color="0 188 212" name="bd.communicate" type="factory">
 				<BlockGenusMember>serial_print</BlockGenusMember>
 				<BlockGenusMember>glue_sn</BlockGenusMember>
 				<BlockGenusMember>glue_sb</BlockGenusMember>
-				<BlockGenusMember>glue_poly</BlockGenusMember>
-				<BlockGenusMember>wire_write</BlockGenusMember>
-				<BlockGenusMember>wire_read</BlockGenusMember>
 				<BlockGenusMember>serial_available</BlockGenusMember>
 				<BlockGenusMember>serial_available2</BlockGenusMember>
-				<BlockGenusMember>wire_isread</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="233 30 99" name="bd.devices" type="factory">
 				<BlockGenusMember>ir_setport</BlockGenusMember>
 				<BlockGenusMember>ir_getcode</BlockGenusMember>
+				<BlockGenusMember>wire_write</BlockGenusMember>
+				<BlockGenusMember>wire_read</BlockGenusMember>
+				<BlockGenusMember>wire_isread</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="96 125 139" name="bd.code" type="factory">
 			</BlockDrawer>
@@ -11094,6 +11093,7 @@
 				<BlockGenusMember>char</BlockGenusMember>
 				<BlockGenusMember>equal_poly</BlockGenusMember>
 				<BlockGenusMember>not_equal_poly</BlockGenusMember>
+				<BlockGenusMember>glue_poly</BlockGenusMember>
 				<BlockGenusMember>greater_equal</BlockGenusMember>
 				<BlockGenusMember>less_equal</BlockGenusMember>
 				<BlockGenusMember>not_equal</BlockGenusMember>
