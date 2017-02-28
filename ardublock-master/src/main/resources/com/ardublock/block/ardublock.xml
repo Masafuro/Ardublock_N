@@ -11060,11 +11060,8 @@
 				<BlockGenusMember>greater</BlockGenusMember>
 				<BlockGenusMember>less</BlockGenusMember>
 				<BlockGenusMember>equal</BlockGenusMember>
-				<BlockGenusMember>not_equal</BlockGenusMember>
 				<BlockGenusMember>equal_digital</BlockGenusMember>
-				<BlockGenusMember>not_equal_digital</BlockGenusMember>
 				<BlockGenusMember>equal_string</BlockGenusMember>
-				<BlockGenusMember>not_equal_string</BlockGenusMember>
 				<BlockGenusMember>and</BlockGenusMember>
 				<BlockGenusMember>or</BlockGenusMember>
 				<BlockGenusMember>not</BlockGenusMember>
@@ -11099,6 +11096,10 @@
 				<BlockGenusMember>not_equal_poly</BlockGenusMember>
 				<BlockGenusMember>greater_equal</BlockGenusMember>
 				<BlockGenusMember>less_equal</BlockGenusMember>
+				<BlockGenusMember>not_equal</BlockGenusMember>
+				<BlockGenusMember>not_equal_digital</BlockGenusMember>
+				<BlockGenusMember>not_equal_string</BlockGenusMember>
+
 				<BlockGenusMember>string_empty</BlockGenusMember>
 				<BlockGenusMember>toint</BlockGenusMember>
 				<BlockGenusMember>variable_poly</BlockGenusMember>
