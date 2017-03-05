@@ -123,7 +123,7 @@ public class OpenblocksFrame extends JFrame
 			public void actionPerformed(ActionEvent e) {
 				Dimension size = workspace.getCanvasSize();
 				System.out.println("size: " + size);
-				BufferedImage bi = new BufferedImage( 5700, 12500, BufferedImage.TYPE_INT_RGB);
+				BufferedImage bi = new BufferedImage( 2000, 2000, BufferedImage.TYPE_INT_RGB);
 				Graphics2D g = (Graphics2D)bi.createGraphics();
 				double theScaleFactor = (300d/72d);
 				g.scale(theScaleFactor,theScaleFactor);
@@ -131,7 +131,7 @@ public class OpenblocksFrame extends JFrame
 				workspace.getBlockCanvas().getPageAt(0).getJComponent().paint(g);
 				try{
 					final JFileChooser fc = new JFileChooser();
-					fc.setSelectedFile(new File("ardublock.png"));
+					fc.setSelectedFile(new File("タネ画像.png"));
 					int returnVal = fc.showSaveDialog(workspace.getBlockCanvas().getJComponent());
 			        if (returnVal == JFileChooser.APPROVE_OPTION) {
 			            File file = fc.getSelectedFile();
