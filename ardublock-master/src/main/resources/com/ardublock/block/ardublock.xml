@@ -11008,6 +11008,8 @@
 			<BlockDrawer button-color="255 255 255" name="bd.start" type="factory">
 				<BlockGenusMember>loop</BlockGenusMember>
 				<BlockGenusMember>program</BlockGenusMember>
+				<BlockGenusMember>delay</BlockGenusMember>
+
 			</BlockDrawer>
 			<BlockDrawer button-color="255 87 34" name="bd.output" type="factory">
 				<BlockGenusMember>pin-write-digital</BlockGenusMember>
@@ -11082,6 +11084,27 @@
 				<BlockGenusMember>wire_isread</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="96 125 139" name="bd.code" type="factory">
+				<BlockGenusMember>code_head</BlockGenusMember>
+				<BlockGenusMember>code_setup</BlockGenusMember>
+				<BlockGenusMember>code_loop</BlockGenusMember>
+			</BlockDrawer>
+			<BlockDrawer button-color="0 50 45" name="bd.storage" type="factory">
+<!--				<BlockGenusMember>eeprom_read_int</BlockGenusMember>
+				<BlockGenusMember>eeprom_write_int</BlockGenusMember>
+				<BlockGenusMember>eeprom_read_long</BlockGenusMember>
+				<BlockGenusMember>eeprom_write_long</BlockGenusMember>
+				<BlockGenusMember>eeprom_read</BlockGenusMember>
+				<BlockGenusMember>eeprom_write</BlockGenusMember>
+				<BlockGenusMember>sd_write2</BlockGenusMember>
+				<BlockGenusMember>MaSD_Connect</BlockGenusMember>
+				<BlockGenusMember>MaSD_file</BlockGenusMember>
+				<BlockGenusMember>MaSD_Write</BlockGenusMember>
+				<BlockGenusMember>MaSD_NewLine</BlockGenusMember>
+				<BlockGenusMember>MaSD_separator</BlockGenusMember>
+				<BlockGenusMember>sd_write</BlockGenusMember>
+				<BlockGenusMember>sd_write_number</BlockGenusMember>
+				<BlockGenusMember>sd_write_number_int</BlockGenusMember>
+			-->
 			</BlockDrawer>
 			<BlockDrawer button-color="156 39 176" name="bd.apply" type="factory">
 				<BlockGenusMember>while</BlockGenusMember>
