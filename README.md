@@ -1,26 +1,28 @@
-#ƒ^ƒlƒuƒƒbƒN
+#Ardublockï¼¿N
+é–‹ç™ºç”¨ NANAKIãƒ–ãƒ­ãƒƒã‚¯ã®å•†æ¨™è§£æ±ºç‰ˆ
+åç§°ä»¥å¤–ã¯NANAKIãƒ–ãƒ­ãƒƒã‚¯ã¨åŒç­‰ã«é–‹ç™º
 
 ====
 
-## à–¾
-Ardublock ( http://blog.ardublock.com/ ) ‚ÌˆŸí
+## èª¬æ˜
+Ardublock ( http://blog.ardublock.com/ ) ã®äºœç¨®
 
-MatunaFruits‚³‚ñ(http://www.bkpoo.net/greatfreesoft/39-ardublock.html)
-‚ÌŠJ”­–@‚É‘¥‚Á‚ÄŠJ”­‚µ‚Ä‚¢‚Ü‚·B
+MatunaFruitsã•ã‚“(http://www.bkpoo.net/greatfreesoft/39-ardublock.html)
+ã®é–‹ç™ºæ³•ã«å‰‡ã£ã¦é–‹ç™ºã—ã¦ã„ã¾ã™ã€‚
 
-Arduino“ü–åÒ‚Ì‚½‚ßA10”N‚Íg‚¢‘±‚¯‚ç‚ê‚é‚æ‚¤‚ÈƒuƒƒbƒN
+Arduinoå…¥é–€è€…ã®ãŸã‚ã€10å¹´ã¯ä½¿ã„ç¶šã‘ã‚‰ã‚Œã‚‹ã‚ˆã†ãªãƒ–ãƒ­ãƒƒã‚¯
 
-## “±“ü
-‚¿‚å‚Á‚Æ‚Ü‚Á‚Ä‚Ë
+## å°å…¥
+ã¡ã‚‡ã£ã¨ã¾ã£ã¦ã­
 
-## g‚¢•û
-‚¿‚å‚Á‚Æ‚Ü‚Á‚Ä‚Ë
+## ä½¿ã„æ–¹
+ã¡ã‚‡ã£ã¨ã¾ã£ã¦ã­
 
-## ƒ‰ƒCƒZƒ“ƒX
+## ãƒ©ã‚¤ã‚»ãƒ³ã‚¹
 
 [MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
 
-## ìÒ
+## ä½œè€…
 
 [Masfuro](https://github.com/Masafuro)
 [@masafuro](https://twitter.com/masafuro)
