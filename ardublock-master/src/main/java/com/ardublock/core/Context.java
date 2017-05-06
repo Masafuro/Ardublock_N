@@ -51,7 +51,7 @@ public class Context
 	private String arduinoVersionString = ARDUINO_VERSION_UNKNOWN;
 	private OsType osType;
 
-	final public static String APP_NAME = "NANAKIブロック";
+	final public static String APP_NAME = "Ardublock_N";
 
 	private Editor editor;
 
