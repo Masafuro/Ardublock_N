@@ -10,7 +10,7 @@ Ardublock ( http://blog.ardublock.com/ ) の亜種
 MatunaFruitsさん(http://www.bkpoo.net/greatfreesoft/39-ardublock.html)
 の開発法に則って開発しています。
 
-Arduino入門者のため、10年は使い続けられるようなブロック
+Arduino入門者のため、10年は使い続けられるようなブロックに
 
 ## 導入
 ちょっとまってね
